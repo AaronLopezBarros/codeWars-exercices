@@ -6,6 +6,15 @@
 
 // You can assume that the number is not negative.
 
+- - - - - - - - - - - - - - - - -
+
+//INSTRUCCIONES
+
+// Escribe una función que invierta los bits en un número entero.
+
+// Por ejemplo, el número 417está 110100001en binario. Invertir el binario es 100001011cuál es 267.
+
+// Puede asumir que el número no es negativo.
 
 function reverseBits (n) {
     n = n.toString(2).split('').reverse().join('')

@@ -23,7 +23,31 @@
 // Notes
 // 0 <= angle <= 360
 
+- - - - - - - - - - - 
 
+//INSTRUCCIONES
+
+// Debido a la falta de mantenimiento, el minutero se ha caído de la esfera del reloj del Ayuntamiento.
+
+// Y debido a que el ayuntamiento ha perdido la mayor parte de nuestro dinero de los impuestos debido a una estafa de correo electrónico de Nigeria, no hay fondos para arreglar el reloj correctamente.
+
+// En cambio, están pidiendo a los programadores voluntarios que escriban un código que indique la hora con solo mirar la manecilla de la hora restante.
+
+// ¡Qué montón de tacaños!
+
+// ¿Puedes hacerlo?
+
+// Kata
+// Dado el angle(en grados) de la manecilla de la hora, devuelva la hora en formato HH: MM. Ronda abajo al minuto más cercano.
+
+// Ejemplos de
+// 12:00 = 0 grados
+// 03:00 = 90 grados
+// 06:00 = 180 grados
+// 09:00 = 270 grados
+// 12:00 = 360 grados
+// Notas
+// 0 <= angle<= 360
 
 var whatTimeIsIt = function(angle) {
     let mins = angle * 2

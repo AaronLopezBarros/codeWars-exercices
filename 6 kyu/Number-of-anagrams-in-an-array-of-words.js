@@ -10,7 +10,18 @@
 // There are 2 anagrams in the array ["dell", "ledl", "abc", "cba"]
 // There are 7 anagrams in the array ["dell", "ledl", "abc", "cba", "bca", "bac"]
 
+- - - - - - - - - - - -
 
+//INSTRUCCIONES
+
+// Un anagrama es una palabra, una frase o una oración formada a partir de otra reordenando sus letras. Un ejemplo de esto es "ángel", que es un anagrama de "espigar".
+
+// Escribe una función que reciba una matriz de palabras y devuelva el número total de pares distintos de palabras anagráficas que contiene.
+
+// Algunos ejemplos:
+
+// Hay 2 anagramas en la matriz. ["dell", "ledl", "abc", "cba"]
+// Hay 7 anagramas en la matriz. ["dell", "ledl", "abc", "cba", "bca", "bac"]
 
 
 function anagramCounter (wordsArray) {

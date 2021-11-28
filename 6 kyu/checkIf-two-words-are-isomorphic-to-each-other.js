@@ -19,6 +19,28 @@
 // XXY XYY
 // ABAB CD
 
+- - - - - - - - - - - - - - - 
+
+//INSTRUCCIONES
+
+// Dos cadenas ayb se denominan isomorfos si existe una asignación uno a uno posible para cada carácter de aa cada carácter de b. Y todas las apariciones de cada personaje en el amapa al mismo personaje en b.
+
+// Tarea
+// En este kata, creará una función que regresará Truesi dos cadenas dadas son isomorfas entre sí, y de lo Falsecontrario. Recuerde que el orden es importante.
+
+// Su solución debe poder manejar palabras con más de 10 caracteres.
+
+// Ejemplo
+// Cierto:
+
+// CBAABC DEFFED
+// XXX YYY
+// RAMBUNCTIOUSLY THERMODYNAMICS
+// Falso:
+
+// AB CC
+// XXY XYY
+// ABAB CD
 
 
 

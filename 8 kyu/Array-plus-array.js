@@ -6,7 +6,13 @@
 
 // P.S. Each array includes only integer numbers. Output is a number too.
 
+- - - - - - - - - - - - - 
 
+//INSTRUCCIONES
+
+// Soy nuevo en la codificación y ahora quiero obtener la suma de dos matrices ... en realidad, la suma de todos sus elementos. Te agradeceré tu ayuda.
+
+// PS Cada matriz incluye solo números enteros. La salida también es un número.
 
 
 function arrayPlusArray(arr1, arr2) {

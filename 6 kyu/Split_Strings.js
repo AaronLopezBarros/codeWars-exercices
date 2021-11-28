@@ -7,6 +7,16 @@
 // solution('abc') // should return ['ab', 'c_']
 // solution('abcdef') // should return ['ab', 'cd', 'ef']
 
+- - - - - - - - - - - - - - - - 
+
+//INSTRUCCIONES
+
+// Complete la solución para que divida la cadena en pares de dos caracteres. Si la cadena contiene un número impar de caracteres, entonces debe reemplazar el segundo carácter faltante del par final con un guión bajo ('_').
+
+// Ejemplos:
+
+// solution('abc') // should return ['ab', 'c_']
+// solution('abcdef') // should return ['ab', 'cd', 'ef']
 
 function solution(str){
     const newArr = []

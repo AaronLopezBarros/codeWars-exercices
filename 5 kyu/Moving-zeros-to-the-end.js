@@ -4,7 +4,13 @@
 
 // moveZeros([false,1,0,1,2,0,1,3,"a"]) // returns[false,1,1,2,1,3,"a",0,0]
 
+- - - - - - - - - - - - - 
 
+//INSRTUCCIONES
+
+// Escribe un algoritmo que tome una matriz y mueva todos los ceros al final, preservando el orden de los otros elementos.
+
+// moveZeros([false,1,0,1,2,0,1,3,"a"]) // returns[false,1,1,2,1,3,"a",0,0]
 
 var moveZeros = function (arr) {
     let newArr = []

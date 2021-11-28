@@ -8,6 +8,17 @@
 
 // The sequence will be to add all the names sorted by the length of the name (ASC). In case there are more than one with the same length, sort them alphabetically.
 
+- - - - - - - - - - - - -
+
+//INSTRUCCIONES
+
+// En la oficina nos encanta hacer actividades increíbles todos juntos para que podamos compartir experiencias increíbles. Esta vez, decidimos hacer puenting. Para decidir el orden en el que vamos a saltar, necesitamos crear un algoritmo clasificador con las siguientes reglas.
+
+// Recibiremos una lista de nombres para cada departamento, por lo que al final tendremos una matriz 2D con diferente longitud
+
+// Devolveremos una matriz normal con todos los nombres en el orden correcto
+
+// La secuencia será sumar todos los nombres ordenados por la longitud del nombre (ASC). En caso de que haya más de uno con la misma longitud, ordénelos alfabéticamente.
 
 function namesSorter (departmentsArray) {
     let arr = []

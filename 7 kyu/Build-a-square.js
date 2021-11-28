@@ -9,6 +9,19 @@
 // +++
 // +++
 
+- - - - - - - - - - - - 
+
+//INSTRUCCIONES
+
+// Te daré un número entero. Devuélveme una forma que sea tan larga y ancha como el número entero. El entero será un número entero entre 1 y 50.
+
+// Ejemplo
+// n = 3, así que espero una parte posterior cuadrada de 3x3 como se muestra a continuación como una cadena:
+
+// +++
+// +++
+// +++
+
 function generateShape(integer){
     let symbol = ''
     let square = ''

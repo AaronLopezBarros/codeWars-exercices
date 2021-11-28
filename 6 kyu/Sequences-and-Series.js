@@ -17,7 +17,26 @@
 // int getScore(4) = return 500;
 // int getScore(5) = return 750;
 
+- - - - - - - - - - - -
 
+//INSTRUCCIONES
+
+// Eche un vistazo a los siguientes números.
+
+//  n | score
+// ---+-------
+//  1 |  50
+//  2 |  150
+//  3 |  300
+//  4 |  500
+//  5 |  750
+// ¿Puedes encontrar un patrón en él? Si es así, escriba una función getScore(n)/ get_score(n)/ GetScore(n)que devuelva la puntuación para cualquier número positivo n:
+
+// int getScore(1) = return 50;
+// int getScore(2) = return 150;
+// int getScore(3) = return 300;
+// int getScore(4) = return 500;
+// int getScore(5) = return 750;
 
 function getScore(n) {
     let value = 0

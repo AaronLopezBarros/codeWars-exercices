@@ -19,7 +19,28 @@
 // Note
 // In case of an empty array return 0. You will not be tested with invalid input (input will always be an array). Order of the face (eyes, nose, mouth) elements will always be the same.
 
+- - - - - - - - - - - - - - - - - - - 
+ 
+//INSTRUCCIONES
 
+// Dada una matriz (arr) como argumento, complete la función countSmileysque debería devolver el número total de caras sonrientes.
+
+// Reglas para una cara sonriente:
+
+// Cada cara sonriente debe contener un par de ojos válido. Los ojos se pueden marcar como :o;
+// Una carita sonriente puede tener nariz, pero no es necesario. Los caracteres válidos para una nariz son -o~
+// Cada rostro sonriente debe tener una boca sonriente que debe estar marcada con )oD
+// No se permiten caracteres adicionales excepto los mencionados.
+
+// Ejemplos de caras sonrientes válidas: caras sonrientes no válidas :) :D ;-D :~)
+// : ;( :> :} :]
+
+// Ejemplo
+// countSmileys([':)', ';(', ';}', ':-D']);       // should return 2;
+// countSmileys([';D', ':-(', ':-)', ';~)']);     // should return 3;
+// countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
+// Nota
+// En caso de una matriz vacía, devuelva 0. No se le probará con una entrada no válida (la entrada siempre será una matriz). El orden de los elementos de la cara (ojos, nariz, boca) siempre será el mismo.
 
 function countSmileys(arr) {
     let counter = 0
